@@ -23,8 +23,7 @@ def canUnlockAll(boxes):
                 # Add this new box to the list of unlocked boxes
                 number_of_keys.append(box)
 
-    # If the number of unlocked boxes is equal to the total number of boxes, return True
     if len(number_of_keys) == number_of_boxes:
         return True
-    # Otherwise, return False
+
     return False
