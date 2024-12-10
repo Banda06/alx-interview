@@ -15,9 +15,6 @@ def makeChange(coins, total):
     coin_idx = 0
     sorted_coins = sorted(coins, reverse=True)
     n = len(coins)
-"""
-Main loop checks and stores the result in rem
-"""
     while rem > 0:
         if coin_idx >= n:
             return -1
